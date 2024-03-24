@@ -2,7 +2,7 @@ syntax = "proto3";
 
 option go_package = "./proto";
 
-package greet_servcie;
+package greet_service;
 
 service GreetService {
     rpc SayHello(NoParam) returns (HelloResponse);
@@ -29,5 +29,5 @@ message NamesList {
 }
 
 message MessagesList {
-    repeated string messags = 1;
+    repeated string messages = 1;
 }

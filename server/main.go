@@ -1,10 +1,11 @@
 package main
 
 import (
-	pb "github.com/akshtrikha/grpc-demo-golang/proto"
-	"google.golang.org/grpc"
 	"log"
 	"net"
+
+	pb "github.com/akshtrikha/grpc-demo-golang/proto"
+	"google.golang.org/grpc"
 )
 
 const (
