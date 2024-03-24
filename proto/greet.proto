@@ -17,17 +17,17 @@ service GreetService {
 message NoParam{}
 
 message HelloResponse {
-    string name = 1;
-}
-
-message HelloResponse {
     string message = 1;
 }
 
-message NamesList {
-    repreated string names = 1;
+message HelloRequest {
+    string name = 1;
 }
 
-string MessagesList {
+message NamesList {
+    repeated string names = 1;
+}
+
+message MessagesList {
     repeated string messags = 1;
 }
